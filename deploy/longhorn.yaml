@@ -494,7 +494,7 @@ spec:
                 fieldPath: spec.serviceAccountName
           # Manually set root directory for csi
           - name: KUBELET_ROOT_DIR
-            value: /var/lib/rancher/k3s/agent/kubelet
+            value: /var/lib/kubelet
           # For AirGap Installation
           # Replace PREFIX with your private registery
           #- name: CSI_ATTACHER_IMAGE
